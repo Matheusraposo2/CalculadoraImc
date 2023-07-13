@@ -8,7 +8,7 @@ public class imc {
 		double dPeso = Double.parseDouble(peso);
 		double dAltura = Double.parseDouble(altura);
 		double imc = (dPeso/(dAltura * dAltura));
-		System.out.println(imc);
+		
 		if(imc < 18.5) {
 			
 			JOptionPane.showMessageDialog(null, "Está abaixo do pesso");
